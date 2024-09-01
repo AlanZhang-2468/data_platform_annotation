@@ -25,7 +25,7 @@ export default function RawTextViewer({rawText, url, imagePath}: RawTextViewerPr
         <ScrollArea className="w-1/2 flex-auto flex flex-col pb-12">
             <Margin className="h-full flex flex-col">
                 <div className="mb-6 py-3">
-                    <Image src={imagePath} width={500} height={300} alt="diagram"/>
+                    <img src={imagePath} width={500} height={300} alt="diagram" />
                 </div>
                 
                 
